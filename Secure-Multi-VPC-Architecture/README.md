@@ -9,7 +9,7 @@ Welcome to the **Secure Multi-VPC Architecture** module repository within the **
 | Lab / Project Directory | Lab ID | Domain | Key Learnings & Practices | Status |
 |---|---|---|---|---|
 | [`Multiple-VPC-Networks/`](Multiple-VPC-Networks/README.md) | GSP211 | Cloud Networking & Architecture | Custom-Mode VPCs, Subnet CIDRs (`10.130.0.0/20`, `172.16.0.0/24`, `172.20.0.0/20`), Ingress Firewall Policies, Multi-NIC VMs (`vm-appliance`), Linux Networking (`ifconfig`, `ip route`), VPC Network Isolation | Completed (100/100) |
-| [`VPC-Networks-Controlling-Access/`](VPC-Networks-Controlling-Access/README.md) | GSP212 | Security & Access Control | IAM Network Roles, Service Account Scope, Private Access, NAT Gateways & Internal Firewall Rules | In Progress |
+| [`VPC-Networks-Controlling-Access/`](VPC-Networks-Controlling-Access/README.md) | GSP213 | Security & Access Control | Custom Web Servers (`blue`/`green`), Network Tags (`web-server`), Ingress Firewall Filtering, IAM Network & Security Admin Roles | In Progress / Documentation Updated |
 
 ---
 
