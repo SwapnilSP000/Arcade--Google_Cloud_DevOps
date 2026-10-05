@@ -1,0 +1,346 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codebg}{rgb}{0.95,0.95,0.95}
+
+\lstset{
+    backgroundcolor=\color{codebg},
+    basicstyle=\ttfamily\small,
+    breaklines=true,
+    captionpos=b,
+    commentstyle=\color{codegray},
+    keepspaces=true,
+    numbers=left,
+    numberstyle=\tiny\color{codegray},
+    showspaces=false,
+    showstringspaces=false,
+    showtabs=false,
+    tabsize=2
+}
+
+\title{Google Cloud Skills Boost - GSP313 Command Reference}
+\author{Arcade Simulator: DevOps Engineer}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Lab Overview}
+\textbf{Lab Title:} Implement Load Balancing on Compute Engine: Challenge Lab \\
+\textbf{Lab ID:} GSP313 \\
+\textbf{Platform:} Google Cloud Skills Boost \\
+\textbf{Region:} us-east4 \\
+\textbf{Zone:} us-east4-b
+
+\section*{Automated Shell Execution Commands}
+
+\begin{lstlisting}[language=bash]
+# ============================================================
+# GSP313 - Implement Load Balancing on Compute Engine
+# Complete solution - Tasks 1, 2 and 3
+# ============================================================
+
+# ---------- LAB VARIABLES ----------
+export PROJECT_ID=$(gcloud config get-value project)
+export REGION="us-east4"
+export ZONE="us-east4-b"
+
+echo "=========================================="
+echo "PROJECT : $PROJECT_ID"
+echo "REGION  : $REGION"
+echo "ZONE    : $ZONE"
+echo "=========================================="
+
+gcloud config set project "$PROJECT_ID"
+gcloud config set compute/region "$REGION"
+gcloud config set compute/zone "$ZONE"
+
+
+# ============================================================
+# TASK 1 - CREATE THREE WEB SERVER INSTANCES
+# ============================================================
+
+echo "===== TASK 1: Creating web1 ====="
+
+gcloud compute instances create web1 \
+  --zone="$ZONE" \
+  --machine-type=e2-small \
+  --tags=network-lb-tag \
+  --image-family=debian-12 \
+  --image-project=debian-cloud \
+  --metadata=startup-script='#!/bin/bash
+apt-get update
+apt-get install apache2 -y
+service apache2 restart
+echo "<h3>Web Server: web1</h3>" | tee /var/www/html/index.html'
+
+
+echo "===== TASK 1: Creating web2 ====="
+
+gcloud compute instances create web2 \
+  --zone="$ZONE" \
+  --machine-type=e2-small \
+  --tags=network-lb-tag \
+  --image-family=debian-12 \
+  --image-project=debian-cloud \
+  --metadata=startup-script='#!/bin/bash
+apt-get update
+apt-get install apache2 -y
+service apache2 restart
+echo "<h3>Web Server: web2</h3>" | tee /var/www/html/index.html'
+
+
+echo "===== TASK 1: Creating web3 ====="
+
+gcloud compute instances create web3 \
+  --zone="$ZONE" \
+  --machine-type=e2-small \
+  --tags=network-lb-tag \
+  --image-family=debian-12 \
+  --image-project=debian-cloud \
+  --metadata=startup-script='#!/bin/bash
+apt-get update
+apt-get install apache2 -y
+service apache2 restart
+echo "<h3>Web Server: web3</h3>" | tee /var/www/html/index.html'
+
+
+echo "===== TASK 1: Creating HTTP firewall ====="
+
+gcloud compute firewall-rules create www-firewall-network-lb \
+  --network=default \
+  --target-tags=network-lb-tag \
+  --allow=tcp:80
+
+
+# ============================================================
+# TASK 2 - NETWORK LOAD BALANCER
+# ============================================================
+
+echo "===== TASK 2: Creating static IP ====="
+
+gcloud compute addresses create network-lb-ip-1 \
+  --region="$REGION"
+
+
+echo "===== TASK 2: Creating HTTP health check ====="
+
+gcloud compute http-health-checks create basic-check
+
+
+echo "===== TASK 2: Creating target pool ====="
+
+gcloud compute target-pools create www-pool \
+  --region="$REGION" \
+  --http-health-check=basic-check
+
+
+echo "===== TASK 2: Adding web instances to target pool ====="
+
+gcloud compute target-pools add-instances www-pool \
+  --instances=web1,web2,web3 \
+  --instances-zone="$ZONE"
+
+
+echo "===== TASK 2: Creating forwarding rule ====="
+
+gcloud compute forwarding-rules create www-rule \
+  --region="$REGION" \
+  --ports=80 \
+  --address=network-lb-ip-1 \
+  --target-pool=www-pool
+
+
+# ============================================================
+# TASK 3 - HTTP LOAD BALANCER
+# ============================================================
+
+echo "===== TASK 3: Creating backend instance template ====="
+
+gcloud compute instance-templates create lb-backend-template \
+  --machine-type=e2-medium \
+  --network=default \
+  --subnet=default \
+  --tags=allow-health-check \
+  --image-family=debian-12 \
+  --image-project=debian-cloud \
+  --metadata=startup-script='#!/bin/bash
+apt-get update
+apt-get install apache2 -y
+
+vm_hostname="$(curl -H "Metadata-Flavor:Google" \
+http://169.254.169.254/computeMetadata/v1/instance/name)"
+
+echo "Page served from: $vm_hostname" | \
+tee /var/www/html/index.html
+
+systemctl restart apache2'
+
+
+echo "===== TASK 3: Creating managed instance group ====="
+
+gcloud compute instance-groups managed create lb-backend-group \
+  --template=lb-backend-template \
+  --size=2 \
+  --zone="$ZONE"
+
+
+echo "===== TASK 3: Setting named port ====="
+
+gcloud compute instance-groups managed set-named-ports \
+  lb-backend-group \
+  --named-ports=http:80 \
+  --zone="$ZONE"
+
+
+echo "===== TASK 3: Creating health-check firewall ====="
+
+gcloud compute firewall-rules create fw-allow-health-check \
+  --network=default \
+  --action=ALLOW \
+  --direction=INGRESS \
+  --source-ranges=130.211.0.0/22,35.191.0.0/16 \
+  --target-tags=allow-health-check \
+  --rules=tcp:80
+
+
+echo "===== TASK 3: Creating global external IP ====="
+
+gcloud compute addresses create lb-ipv4-1 \
+  --ip-version=IPV4 \
+  --global
+
+
+echo "===== TASK 3: Creating HTTP health check ====="
+
+gcloud compute health-checks create http http-basic-check \
+  --port=80
+
+
+echo "===== TASK 3: Creating backend service ====="
+
+gcloud compute backend-services create web-backend-service \
+  --protocol=HTTP \
+  --port-name=http \
+  --health-checks=http-basic-check \
+  --global
+
+
+echo "===== TASK 3: Adding MIG backend ====="
+
+gcloud compute backend-services add-backend web-backend-service \
+  --instance-group=lb-backend-group \
+  --instance-group-zone="$ZONE" \
+  --global
+
+
+echo "===== TASK 3: Creating URL map ====="
+
+gcloud compute url-maps create web-map-http \
+  --default-service=web-backend-service
+
+
+echo "===== TASK 3: Creating HTTP proxy ====="
+
+gcloud compute target-http-proxies create http-lb-proxy \
+  --url-map=web-map-http
+
+
+echo "===== TASK 3: Creating HTTP forwarding rule ====="
+
+gcloud compute forwarding-rules create http-content-rule \
+  --address=lb-ipv4-1 \
+  --global \
+  --target-http-proxy=http-lb-proxy \
+  --ports=80
+
+
+# ============================================================
+# VERIFICATION
+# ============================================================
+
+echo ""
+echo "=========================================="
+echo "GSP313 RESOURCE VERIFICATION"
+echo "=========================================="
+
+echo ""
+echo "----- VM INSTANCES -----"
+gcloud compute instances list \
+  --filter="name:(web1 web2 web3)" \
+  --format="table(name,zone,machineType,networkInterfaces[0].networkIP,networkInterfaces[0].accessConfigs[0].natIP,status)"
+
+echo ""
+echo "----- NETWORK FIREWALL -----"
+gcloud compute firewall-rules describe www-firewall-network-lb \
+  --format="yaml(name,network,targetTags,allowed)"
+
+echo ""
+echo "----- NETWORK LOAD BALANCER IP -----"
+gcloud compute addresses describe network-lb-ip-1 \
+  --region="$REGION" \
+  --format="get(address)"
+
+echo ""
+echo "----- TARGET POOL -----"
+gcloud compute target-pools describe www-pool \
+  --region="$REGION"
+
+echo ""
+echo "----- NETWORK LB FORWARDING RULE -----"
+gcloud compute forwarding-rules describe www-rule \
+  --region="$REGION" \
+  --format="yaml(name,IPAddress,portRange,target)"
+
+echo ""
+echo "----- BACKEND MIG -----"
+gcloud compute instance-groups managed list
+
+echo ""
+echo "----- HTTP LB IP -----"
+gcloud compute addresses describe lb-ipv4-1 \
+  --global \
+  --format="get(address)"
+
+echo ""
+echo "----- HTTP BACKEND SERVICE -----"
+gcloud compute backend-services describe web-backend-service \
+  --format="yaml(name,protocol,portName,healthChecks,backends)"
+
+echo ""
+echo "----- URL MAP -----"
+gcloud compute url-maps describe web-map-http
+
+echo ""
+echo "=========================================="
+echo "GSP313 COMMANDS COMPLETED"
+echo "=========================================="
+
+echo ""
+echo "Network LB IP:"
+gcloud compute addresses describe network-lb-ip-1 \
+  --region="$REGION" \
+  --format="get(address)"
+
+echo ""
+echo "HTTP Load Balancer IP:"
+gcloud compute addresses describe lb-ipv4-1 \
+  --global \
+  --format="get(address)"
+
+echo ""
+echo "Test Network Load Balancer:"
+echo "curl http://$(gcloud compute addresses describe network-lb-ip-1 --region=$REGION --format='get(address)')"
+
+echo ""
+echo "Test HTTP Load Balancer:"
+echo "curl http://$(gcloud compute addresses describe lb-ipv4-1 --global --format='get(address)')"
+\end{lstlisting}
+
+\end{document}
