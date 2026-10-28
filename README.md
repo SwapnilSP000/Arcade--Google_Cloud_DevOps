@@ -56,14 +56,23 @@ Containerization, cluster provisioning, and microservice orchestration using Goo
 Cloud monitoring, troubleshooting, and resilient runtime operations.
 * **Debug Apps on Google Kubernetes Engine**: Identifying crash loops, broken deployments, resource bottlenecks, and log investigation.
 
+### 5. 📈 [Time-Series Telemetry & Observability](./Monitor%20Time-Series%20Data%20with%20OpenTSDB)
+Distributed time-series storage, high-throughput telemetry ingestion, and real-time visualization with Cloud Bigtable and Kubernetes.
+* **Monitor Time-Series Data with OpenTSDB (`GSP142`)**: Cloud Bigtable persistent storage, GKE microservices, Artifact Registry, OpenTSDB read/write decoupling, Grafana live dashboards, and SRE triage of container build/pull errors.
+
+### 6. 📡 [Spotting Phantoms on the Radar — Prometheus Observability](./Spotting-Phantoms-on-the-Radar)
+Cloud-native telemetry instrumentation, managed Prometheus scraping, and operational metrics visualization.
+* **Using Prometheus for Monitoring on Google Cloud: Qwik Start (`GSP1024`)**: Google Cloud Managed Service for Prometheus on GKE, Artifact Registry, Python Flask metrics telemetry, PodMonitoring custom resource scraping, and Cloud Monitoring PromQL dashboards.
+
 ---
 
 ## 🛠️ Key Technologies & Skills
 
-* **Cloud Platform:** Google Cloud Platform (Compute Engine, GKE, Cloud VPC, Cloud Load Balancing, Cloud NAT, Cloud Armor)
+* **Cloud Platform:** Google Cloud Platform (Compute Engine, GKE, Cloud Bigtable, Artifact Registry, Cloud VPC, Cloud Load Balancing, Cloud NAT, Cloud Armor)
 * **Containers & Orchestration:** Docker, Kubernetes, Google Kubernetes Engine (GKE), Helm
+* **Monitoring & Observability:** Google Cloud Managed Service for Prometheus, PromQL, OpenTSDB, Grafana, Cloud Monitoring, Cloud Logging, Telemetry Ingestion
 * **Networking & Security:** Custom VPCs, VPC Peering, Cloud Firewall Rules, Internal & External L4/L7 Load Balancers
-* **DevOps & SRE:** Managed Instance Groups (MIG), Rolling Updates, Health Checking, Observability, Fault Isolation
+* **DevOps & SRE:** Managed Instance Groups (MIG), Rolling Updates, Health Checking, Observability, Fault Isolation, Build Supply Chain Debugging
 
 ---
 
