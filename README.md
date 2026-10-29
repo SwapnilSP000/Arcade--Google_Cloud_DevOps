@@ -63,6 +63,7 @@ Distributed time-series storage, high-throughput telemetry ingestion, and real-t
 ### 6. 📡 [Spotting Phantoms on the Radar — Prometheus Observability](./Spotting-Phantoms-on-the-Radar)
 Cloud-native telemetry instrumentation, managed Prometheus scraping, and operational metrics visualization.
 * **Using Prometheus for Monitoring on Google Cloud: Qwik Start (`GSP1024`)**: Google Cloud Managed Service for Prometheus on GKE, Artifact Registry, Python Flask metrics telemetry, PodMonitoring custom resource scraping, and Cloud Monitoring PromQL dashboards.
+* **Migrate Existing Prometheus Monitoring Workloads to Google Cloud (`GSP1025`)**: Self-deployed Prometheus data collection on GKE, drop-in replacement engine writing to Monarch, internal frontend service proxying, ephemeral Grafana deployment, PromQL data-source integration, and time-series telemetry inspection.
 
 ---
 
