@@ -64,6 +64,7 @@ Distributed time-series storage, high-throughput telemetry ingestion, and real-t
 Cloud-native telemetry instrumentation, managed Prometheus scraping, and operational metrics visualization.
 * **Using Prometheus for Monitoring on Google Cloud: Qwik Start (`GSP1024`)**: Google Cloud Managed Service for Prometheus on GKE, Artifact Registry, Python Flask metrics telemetry, PodMonitoring custom resource scraping, and Cloud Monitoring PromQL dashboards.
 * **Migrate Existing Prometheus Monitoring Workloads to Google Cloud (`GSP1025`)**: Self-deployed Prometheus data collection on GKE, drop-in replacement engine writing to Monarch, internal frontend service proxying, ephemeral Grafana deployment, PromQL data-source integration, and time-series telemetry inspection.
+* **Reduce Costs for the Managed Service for Prometheus (`GSP1027`)**: Observability FinOps, GKE managed metric collection, OperatorConfig matchOneOf metric filtering, PodMonitoring scrape interval tuning (30s to 60s), Cloud Monitoring Metrics Explorer queries, and Cloud Storage configuration archiving.
 
 ---
 

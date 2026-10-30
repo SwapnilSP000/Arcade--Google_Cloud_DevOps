@@ -10,6 +10,7 @@ A dedicated module repository within the **Arcade--Google_Cloud_DevOps** collect
 |---|---|---|---|---|---|
 | **Using Prometheus for Monitoring on Google Cloud: Qwik Start** | **GSP1024** | Observability & Kubernetes | Google Kubernetes Engine (GKE), Google Cloud Managed Service for Prometheus, Artifact Registry, Python Flask, PodMonitoring CRD, Cloud Monitoring Dashboards | [README.md](./Using%20Prometheus%20for%20Monitoring%20on%20Google%20Cloud%20Qwik%20Start/README.md) | **Completed** |
 | **Migrate Existing Prometheus Monitoring Workloads to Google Cloud** | **GSP1025** | Observability & Migration | Google Kubernetes Engine (GKE), Google Cloud Managed Service for Prometheus (Self-Deployed Engine), Grafana, PromQL, kube-prometheus | [README.md](./Migrate%20Existing%20Prometheus%20Monitoring%20Workloads%20to%20Google%20Cloud(Grafana%20Lab)/README.md) | **Completed** |
+| **Reduce Costs for the Managed Service for Prometheus** | **GSP1027** | Observability & FinOps | Google Kubernetes Engine (GKE), Managed Service for Prometheus, OperatorConfig Metric Filtering, PodMonitoring Scrape Interval Tuning, Cloud Monitoring, Cloud Storage | [README.md](./Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus/README.md) | **Completed** |
 
 ---
 
@@ -20,13 +21,13 @@ A dedicated module repository within the **Arcade--Google_Cloud_DevOps** collect
                                                 |
         +---------------------------------------+---------------------------------------+
         |                                                                               |
-Managed Service for Prometheus (GMP)                                   Dashboards & Visualization
-        (GSP1024 & GSP1025)                                                 (GSP1024 & GSP1025)
+Managed Service for Prometheus (GMP)                                   Dashboards, Ingestion & FinOps
+    (GSP1024, GSP1025, GSP1027)                                         (GSP1024, GSP1025, GSP1027)
 ----------------------------------------                               ------------------------------------------
-- Managed & Self-Deployed Collection Modes                             - Cloud Monitoring PromQL Dashboards
+- Managed & Self-Deployed Collection Modes                             - Cloud Monitoring PromQL & MQL Dashboards
 - Automated Scrape via PodMonitoring CRD                               - Ephemeral & Self-Hosted Grafana on GKE
-- Drop-in Prometheus StatefulSet Engine                                - PromQL Frontend Service Proxy (:9090)
-- Zero-maintenance Monarch Storage Backend                             - Time-Series Telemetry & Query Inspection
+- Drop-in Prometheus StatefulSet Engine                                - OperatorConfig Ingestion Series Filtering
+- Zero-maintenance Monarch Storage Backend                             - Scrape Interval Tuning (30s -> 60s)
 ```
 
 ---
@@ -39,3 +40,4 @@ Managed Service for Prometheus (GMP)                                   Dashboard
 4. **Cloud Monitoring Visualizations**: Creating custom monitoring dashboards querying Prometheus metrics with rate alignment and multi-dimensional status-code breakdowns.
 5. **Self-Deployed Prometheus Workload Migration**: Replacing upstream Prometheus container binaries with the GMP drop-in binary to preserve existing scrape configs while routing storage to Google Cloud Monarch.
 6. **Grafana Prometheus Data Source Integration**: Bridging containerized Grafana to the internal Managed Service for Prometheus frontend service via Kubernetes cluster networking and port forwarding.
+7. **Observability Cost Optimization (FinOps)**: Implementing egress series whitelisting via `OperatorConfig` `matchOneOf` selectors and halving sample write frequencies by tuning `PodMonitoring` scrape intervals to 60s.
