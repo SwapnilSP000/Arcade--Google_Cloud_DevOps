@@ -1,4 +1,5 @@
 # Google Cloud DevOps & SRE Engineering Lab
+### Google Cloud Arcade & Skills Achievement Portfolio
 
 > Hands-on engineering portfolio demonstrating practical implementation, troubleshooting, automation, and security across Google Cloud Platform, Google Kubernetes Engine (GKE), Prometheus Observability, AlloyDB, Networking, and Site Reliability Engineering.
 
@@ -14,9 +15,29 @@
 
 - **Engineer:** Swapnil Patil
 - **GitHub Repository:** [github.com/SwapnilSP000/Arcade--Google_Cloud_DevOps](https://github.com/SwapnilSP000/Arcade--Google_Cloud_DevOps)
-- **Google Cloud Skills Boost Profile:** [skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0](https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0)
+- **Google Cloud Skills Boost Public Profile:** [skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0](https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0)
 - **Credly Verified Badges:** [credly.com/users/swapnil-patil.bbda7d25/badges/credly](https://www.credly.com/users/swapnil-patil.bbda7d25/badges/credly)
-- **Target Roles:** Google Cloud DevOps Engineer | Cloud Engineer | Site Reliability Engineer (SRE) | Platform Engineer
+- **Target Roles:** Google Cloud DevOps Engineer | Cloud Engineer | Site Reliability Engineer (SRE) | Platform Engineer | Cloud Security Engineer
+
+---
+
+## 📋 Table of Contents
+
+1. [Portfolio Summary & Metrics](#-portfolio-summary--metrics)
+2. [Engineering Mindset](#-engineering-mindset)
+3. [Featured Professional Credentials](#-featured-professional-credentials)
+4. [Google Cloud Arcade — Complete Achievement Gallery](#-google-cloud-arcade--complete-achievement-gallery)
+   - [A. Arcade Simulators](#a-arcade-simulators)
+   - [B. Arcade Trails & Re-Trails](#b-arcade-trails--re-trails)
+   - [C. Arcade Voyages](#c-arcade-voyages)
+   - [D. Arcade Adventures & Events](#d-arcade-adventures--events)
+5. [High-Value Skill Badges Ranked by Career Relevance](#-high-value-skill-badges-ranked-by-career-relevance)
+6. [Professional Career Path Alignment](#-professional-career-path-alignment)
+7. [Enterprise Architecture Overview](#-enterprise-architecture-overview)
+8. [Detailed Repository Modules & Lab Inventory](#-detailed-repository-modules--lab-inventory)
+9. [Technical Skills Matrix](#-technical-skills-matrix)
+10. [How to Explore This Repository](#-how-to-explore-this-repository)
+11. [Official Technical References](#-official-technical-references)
 
 ---
 
@@ -30,6 +51,7 @@
 | **Forensic Screenshot Evidence** | 85+ Terminal & Console Proofs | Dedicated `Screenshot/` folders per lab |
 | **Primary Cloud Platform** | Google Cloud Platform (GCP) | Compute, Networking, GKE, Databases, Observability |
 | **Primary Automation Tools** | `gcloud` CLI, `kubectl`, Bash, PromQL, SQL | Automated implementation scripts |
+| **Verified Skill & Arcade Badges** | Multiple Assessed Badges | [Google Cloud Skills Boost Profile](https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0) |
 
 ---
 
@@ -43,44 +65,202 @@ Learn  ──▶  Practice  ──▶  Reproduce  ──▶  Break  ──▶  T
 
 ---
 
-## 🏆 Google Cloud Skills Boost — Verified Achievements
+## 🌟 Featured Professional Credentials
 
-All achievements listed below are earned on the official Google Cloud Skills Boost platform and verified against the public profile:
+These assessment-based credentials represent the core technical foundation of this portfolio, directly demonstrating hands-on proficiency in CI/CD pipeline automation, zero-trust network security, hybrid connectivity, production load balancing, and cloud observability:
 
-### A. High-Value Skill Badges for DevOps & SRE (Tier 1 & Tier 2)
-
-These assessment-based credentials validate hands-on execution of production architectures, security controls, and infrastructure delivery:
-
-| Priority | Badge Title | Domain | Verified Earned Date | DevOps & SRE Practical Relevance |
-|---|---|---|---|---|
-| **Tier 1** | **Implement CI/CD Pipelines on Google Cloud** | CI/CD & Delivery | August 10, 2026 | Automated application delivery pipelines using Cloud Build, Artifact Registry container storage, Cloud Deploy canary/rolling rollouts, and GKE cluster release management. |
-| **Tier 1** | **Privileged Access with IAM** | Security & Access Governance | August 8, 2026 | Least-privilege IAM roles, service account management, conditional role bindings, Identity-Aware Proxy (IAP), and audit logging. |
-| **Tier 1** | **Connecting Cloud Networks with NCC** | Enterprise Cloud Networking | August 21, 2026 | Network Connectivity Center (NCC) hub-and-spoke connectivity, VPC peering, Hybrid interconnects, and cross-VPC routing. |
-| **Tier 1** | **Implement Load Balancing on Compute Engine** (`GSP313`) | Traffic Engineering | September 28, 2026 | Layer 7 Global External Application Load Balancers, Layer 4 Regional Passthrough, Internal ALBs, Managed Instance Groups (MIG), and health check policies. |
-| **Tier 1** | **Build a Secure Google Cloud Network** | Zero-Trust Infrastructure | September 25, 2026 | Custom-mode VPCs, multi-interface (Multi-NIC) appliances, stateful firewall rules, bastion host architecture, and network isolation. |
-| **Tier 2** | **Spotting Phantoms on the Radar: Prometheus Observability** | Observability & FinOps | October 29–31, 2026 | Google Cloud Managed Service for Prometheus, PromQL querying, `PodMonitoring` custom resources, Grafana integration, and `OperatorConfig` metric ingestion filtering. |
-| **Tier 2** | **Deliver the Treats: AlloyDB Performance** | Cloud Databases & SRE | October 31, 2026 | AlloyDB for PostgreSQL, Private Service Access (PSA), 2 vCPU primary instances, 2-node load-balanced read pools, SSL/TLS (`sslmode=require`), and on-demand snapshots. |
-
-### B. Arcade Milestones & Simulator Badges
-
-Official Google Cloud Arcade game tracks and interactive simulator achievements validating diverse operational skills:
-
-| Category | Arcade Achievement Title | Verified Date | Focus Area |
-|---|---|---|---|
-| **Arcade Trail** | **Arcade Trail: Cloud Delivery Systems** | August 18, 2026 | Modern software supply chain, container packaging, and cloud release engineering. |
-| **Arcade Simulator**| **Arcade Simulator: Network Security Engineer** | August 8, 2026 | Virtual network security, perimeter defense, Cloud Armor, and packet inspection. |
-| **Arcade Voyage** | **Arcade Voyage: Google Sheets** | August 31, 2026 | Cloud workspace data automation, telemetry exports, and analysis. |
-
-### C. Supporting Technical Learning & Foundation (Tier 3)
-
-Complementary technical learning tracks covering Generative AI, MLOps, and Data Analytics on Google Cloud:
-- **Vertex AI & Generative AI Foundations**: Practical exposure to foundation model APIs, Gemini on Google Cloud, and AI-assisted cloud workflows.
-- **Responsible AI Principles**: Safety filters, model governance, and ethical deployment standards.
-- **Big Data & Telemetry Ingestion**: Scalable ingestion architectures leveraging Cloud Bigtable and time-series engines.
+<table>
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://images.credly.com/images/07d2f928-8685-4ce9-8979-450f6120e6c6/image.png" alt="Implement CI/CD Pipelines on Google Cloud" width="120px"/><br/>
+      <b>Implement CI/CD Pipelines on Google Cloud</b>
+    </td>
+    <td width="80%">
+      <b>Verified Earned Date:</b> August 10, 2026<br/>
+      <b>Domain:</b> CI/CD, Container Packaging & Cloud Delivery<br/>
+      <b>Technical Skills Demonstrated:</b> Automated software release management using Google Cloud Build, Artifact Registry Docker repository configuration, automated multi-target deployment pipelines with Google Cloud Deploy, and GKE cluster release engineering.<br/>
+      <b>Professional Career Relevance:</b> <i>High Relevance (Tier 1)</i> — Fundamental for DevOps and Release Engineers responsible for continuous integration, immutable container artifacts, and declarative GitOps delivery.<br/>
+      <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="https://www.credly.com/users/swapnil-patil.bbda7d25/badges/credly">View on Credly</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://images.credly.com/images/2513f572-c2e5-420a-8bf8-d56715f3ec56/image.png" alt="Privileged Access with IAM" width="120px"/><br/>
+      <b>Privileged Access with IAM</b>
+    </td>
+    <td width="80%">
+      <b>Verified Earned Date:</b> August 8, 2026<br/>
+      <b>Domain:</b> Security, Identity & Governance<br/>
+      <b>Technical Skills Demonstrated:</b> Implementing least-privilege IAM roles, auditing custom roles, managing Google Cloud service accounts and key delegation, enforcing conditional access policies, configuring Identity-Aware Proxy (IAP), and inspecting Cloud Audit Logs.<br/>
+      <b>Professional Career Relevance:</b> <i>High Relevance (Tier 1)</i> — Critical for Cloud Security and DevSecOps engineers enforcing zero-trust perimeter defense, temporary privilege elevation, and compliance boundaries.<br/>
+      <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="https://www.credly.com/users/swapnil-patil.bbda7d25/badges/credly">View on Credly</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://images.credly.com/images/96a6c6e7-1424-4f51-b072-cb25bbfead8e/image.png" alt="Connecting Cloud Networks with NCC" width="120px"/><br/>
+      <b>Connecting Cloud Networks with NCC</b>
+    </td>
+    <td width="80%">
+      <b>Verified Earned Date:</b> August 21, 2026<br/>
+      <b>Domain:</b> Enterprise Cloud Networking & Hybrid Architecture<br/>
+      <b>Technical Skills Demonstrated:</b> Configuring Network Connectivity Center (NCC) hub-and-spoke models, multi-VPC spoke attachments, Cloud Router BGP dynamic routing, VPC Network Peering topologies, and cross-region hybrid connectivity.<br/>
+      <b>Professional Career Relevance:</b> <i>High Relevance (Tier 1)</i> — Essential for Cloud Network Engineers and Enterprise Cloud Architects orchestrating large-scale corporate networks across multi-VPC and hybrid-cloud environments.<br/>
+      <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="https://www.credly.com/users/swapnil-patil.bbda7d25/badges/credly">View on Credly</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://images.credly.com/images/0dbbe5e2-6d8b-4929-a1b4-75eb9231f82e/image.png" alt="Implement Load Balancing on Compute Engine" width="120px"/><br/>
+      <b>Implement Load Balancing on Compute Engine</b>
+    </td>
+    <td width="80%">
+      <b>Verified Earned Date:</b> September 28, 2026<br/>
+      <b>Domain:</b> Traffic Engineering & High Availability<br/>
+      <b>Technical Skills Demonstrated:</b> Layer 7 Global External Application Load Balancers, Layer 4 Regional Passthrough Network Load Balancers, Internal Application Load Balancers, Managed Instance Groups (MIG), URL maps, backend health checks, and autoscaling policies under timed challenge conditions (`GSP313`).<br/>
+      <b>Professional Career Relevance:</b> <i>High Relevance (Tier 1)</i> — Core competence for Site Reliability Engineers (SRE) maintaining service availability, zero-downtime rolling upgrades, and traffic failover.<br/>
+      <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="./Production%20Traffic%20%26%20Load%20Balancing">View Lab Implementation</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="20%" align="center">
+      <img src="https://images.credly.com/images/da94b150-b088-4444-a006-25816999a38f/image.png" alt="Build a Secure Google Cloud Network" width="120px"/><br/>
+      <b>Build a Secure Google Cloud Network</b>
+    </td>
+    <td width="80%">
+      <b>Verified Earned Date:</b> September 25, 2026<br/>
+      <b>Domain:</b> Zero-Trust Infrastructure & VPC Design<br/>
+      <b>Technical Skills Demonstrated:</b> Custom-mode VPC subnet design, stateful firewall rules with network tags, multi-homed virtual router appliances (Multi-NIC VMs), bastion hosts for administrative transit, and private network segmentation.<br/>
+      <b>Professional Career Relevance:</b> <i>High Relevance (Tier 1)</i> — Foundational for Platform Engineers designing non-overlapping CIDR address space and hardened cloud network perimeters.<br/>
+      <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="./Secure-Multi-VPC-Architecture">View Lab Implementation</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 🏛️ Comprehensive Architecture & Implementation Modules
+## 🎮 Google Cloud Arcade — Complete Achievement Gallery
+
+The Google Cloud Arcade program features interactive gamified milestones, hands-on architectural simulators, and scenario-based challenge tracks. The sections below showcase all verified Arcade achievements categorized by track:
+
+### A. Arcade Simulators
+*Interactive architectural simulations testing real-world engineering troubleshooting and design patterns:*
+
+<table>
+  <tr>
+    <th width="20%">Badge Artwork</th>
+    <th width="25%">Achievement Title</th>
+    <th width="15%">Earned Date</th>
+    <th width="40%">Engineering Focus & Skill Demonstration</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://images.credly.com/images/da94b150-b088-4444-a006-25816999a38f/image.png" alt="Arcade Simulator: Network Security Engineer" width="90px"/>
+    </td>
+    <td><b>Arcade Simulator: Network Security Engineer</b></td>
+    <td>August 8, 2026</td>
+    <td>Designing defensive network architectures, deploying perimeter Cloud Armor security policies, isolating virtual machines with private subnets, and inspecting network flow logs.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verify on Skills Boost</a></td>
+  </tr>
+</table>
+
+---
+
+### B. Arcade Trails & Re-Trails
+*Curated hands-on pathways covering modern cloud infrastructure, delivery pipelines, and automation:*
+
+<table>
+  <tr>
+    <th width="20%">Badge Artwork</th>
+    <th width="25%">Achievement Title</th>
+    <th width="15%">Earned Date</th>
+    <th width="40%">Engineering Focus & Skill Demonstration</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://images.credly.com/images/07d2f928-8685-4ce9-8979-450f6120e6c6/image.png" alt="Arcade Trail: Cloud Delivery Systems" width="90px"/>
+    </td>
+    <td><b>Arcade Trail: Cloud Delivery Systems</b></td>
+    <td>August 18, 2026</td>
+    <td>Hands-on mastery of software delivery pipelines, container image scanning in Artifact Registry, automated build triggers via Cloud Build, and deployment staging to Kubernetes clusters.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verify on Skills Boost</a></td>
+  </tr>
+</table>
+
+---
+
+### C. Arcade Voyages
+*In-depth technical exploration quests into Google Cloud workspace, productivity, and automation:*
+
+<table>
+  <tr>
+    <th width="20%">Badge Artwork</th>
+    <th width="25%">Achievement Title</th>
+    <th width="15%">Earned Date</th>
+    <th width="40%">Engineering Focus & Skill Demonstration</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Arcade%20Voyage-Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Arcade Voyage: Google Sheets" width="130px"/>
+    </td>
+    <td><b>Arcade Voyage: Google Sheets</b></td>
+    <td>August 31, 2026</td>
+    <td>Data manipulation, operational telemetry formatting, programmatic spreadsheet workflows, and reporting automation for cloud operational analytics.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verify on Skills Boost</a></td>
+  </tr>
+</table>
+
+---
+
+### D. Arcade Adventures & Events
+<details>
+<summary><b>🔍 Click to expand seasonal Arcade event achievements & trivia milestones</b></summary>
+<br/>
+
+<table>
+  <tr>
+    <th width="20%">Badge Category</th>
+    <th width="30%">Track / Milestone</th>
+    <th width="50%">Description & Verification</th>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/Arcade-Base%20Camp-EA4335?style=for-the-badge&logo=googlecloud&logoColor=white" width="130px"/></td>
+    <td><b>Arcade Base Camp & Trivia</b></td>
+    <td>Foundational cloud computing challenges, architectural trivia, and multi-disciplinary Google Cloud platform navigation.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verified on Google Skills Boost Profile</a></td>
+  </tr>
+</table>
+
+</details>
+
+---
+
+## 🎯 High-Value Skill Badges Ranked by Career Relevance
+
+To provide technical recruiters and hiring managers with a structured view of competencies, earned badges are evaluated below by alignment with core DevOps and SRE industry responsibilities:
+
+| Priority Tier | Badge Title | Category | Earned Date | DevOps & SRE Career Justification |
+|---|---|---|---|---|
+| **Tier 1 (Direct)** | **Implement CI/CD Pipelines on Google Cloud** | CI/CD & Delivery | Aug 10, 2026 | Direct validation of automated pipeline design with Cloud Build, Artifact Registry, Cloud Deploy, and GKE release automation. |
+| **Tier 1 (Direct)** | **Privileged Access with IAM** | Security & Governance | Aug 8, 2026 | Demonstrates production access control: least-privilege IAM roles, service accounts, conditional bindings, and Identity-Aware Proxy (IAP). |
+| **Tier 1 (Direct)** | **Connecting Cloud Networks with NCC** | Enterprise Networking | Aug 21, 2026 | Network Connectivity Center (NCC) hub-and-spoke topologies, cross-VPC routing, and hybrid connectivity patterns. |
+| **Tier 1 (Direct)** | **Implement Load Balancing on Compute Engine** (`GSP313`) | Traffic Engineering | Sep 28, 2026 | Multi-tier L4/L7 load balancing, Global HTTPS proxies, URL maps, and health checking across Managed Instance Groups. |
+| **Tier 1 (Direct)** | **Build a Secure Google Cloud Network** | Zero-Trust Infrastructure | Sep 25, 2026 | Custom-mode VPC segmentation, firewall policy authoring, multi-NIC virtual appliances, and private subnet isolation. |
+| **Tier 2 (Supporting)** | **Spotting Phantoms on the Radar: Prometheus Observability** | Observability & FinOps | Oct 2026 | Google Cloud Managed Service for Prometheus, PromQL evaluation, `PodMonitoring` custom resources, Grafana integration, and `OperatorConfig` series filtering. |
+| **Tier 2 (Supporting)** | **Deliver the Treats: AlloyDB Performance** (`GSP395`) | Cloud Databases | Oct 31, 2026 | Decoupled compute/storage, Private Service Access (PSA), primary read/write instances, 2-node read pools, and non-disruptive snapshot backups. |
+| **Tier 3 (Foundation)** | **Vertex AI & Generative AI Foundations** | AI & MLOps | 2026 | Practical exploration of foundation model APIs, Gemini on Google Cloud, and AI-assisted cloud workflows. |
+
+---
+
+## 💼 Professional Career Path Alignment
+
+| Career Target | Relevant Portfolio Achievements & Modules | Practical Skills Demonstrated |
+|---|---|---|
+| **Google Cloud DevOps Engineer** | • Implement CI/CD Pipelines on Google Cloud<br/>• Arcade Trail: Cloud Delivery Systems<br/>• Deploy Kubernetes Applications on GKE | Automated container builds, Artifact Registry OCI management, multi-environment Cloud Deploy releases, and immutable infrastructure automation. |
+| **Site Reliability Engineer (SRE)** | • Spotting Phantoms on the Radar (`GSP1024`, `GSP1025`, `GSP1027`, `GSP364`)<br/>• Implement Load Balancing on Compute Engine (`GSP313`)<br/>• Time-Series Telemetry with OpenTSDB (`GSP142`) | Managed Prometheus scraping, PromQL rate transformations, Grafana dashboarding, SLA/SLO monitoring, and automated health-check failover. |
+| **Cloud Infrastructure Engineer** | • Connecting Cloud Networks with NCC<br/>• Build a Secure Google Cloud Network<br/>• Multiple VPC Networks (`GSP211`) | Custom-mode VPC topologies, hub-and-spoke Network Connectivity Center, Multi-NIC appliances, and regional subnet isolation. |
+| **Cloud Security Engineer (DevSecOps)** | • Privileged Access with IAM<br/>• Arcade Simulator: Network Security Engineer<br/>• VPC Networks: Controlling Access (`GSP213`) | Principle of least privilege, service account key rotation, tag-based firewall filtering, IAP private tunnels, and Cloud Audit Log inspection. |
+| **Database & Platform Engineer** | • Deliver the Treats: AlloyDB Performance (`GSP395`)<br/>• Monitor Time-Series Data with OpenTSDB (`GSP142`) | Private Service Access (PSA) peering, disaggregated database compute/storage, load-balanced read pools, SSL/TLS encryption, and distributed time-series stores. |
+
+---
+
+## 🏛️ Enterprise Architecture Overview
 
 ```mermaid
 flowchart TD
@@ -113,7 +293,7 @@ flowchart TD
 
 ---
 
-## 📂 Detailed Module Directory & Lab Inventory
+## 📂 Detailed Repository Modules & Lab Inventory
 
 ### 1. 🚦 [Production Traffic & Load Balancing](./Production%20Traffic%20%26%20Load%20Balancing)
 *Enterprise traffic routing, global SSL offloading, and backend health monitoring across Compute Engine Managed Instance Groups.*
@@ -205,7 +385,7 @@ git status
 git add .
 
 # Commit changes with descriptive message
-git commit -m "docs: complete repository audit, badges valuation, and portfolio upgrade"
+git commit -m "docs: add Google Cloud Arcade badge gallery and professional credential showcase"
 
 # Push to GitHub main branch
 git push origin main
