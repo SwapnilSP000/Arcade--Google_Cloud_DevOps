@@ -67,12 +67,12 @@ Learn  ──▶  Practice  ──▶  Reproduce  ──▶  Break  ──▶  T
 
 ## 🌟 Featured Professional Credentials
 
-These assessment-based credentials represent the core technical foundation of this portfolio, directly demonstrating hands-on proficiency in CI/CD pipeline automation, zero-trust network security, hybrid connectivity, production load balancing, and cloud observability:
+These assessment-based credentials represent the core technical foundation of this portfolio, directly demonstrating hands-on proficiency in CI/CD pipeline automation, zero-trust network security, hybrid connectivity, production load balancing, and cloud observability. All badges below use verified locally-hosted repository artwork:
 
 <table>
   <tr>
     <td width="20%" align="center">
-      <img src="https://images.credly.com/images/07d2f928-8685-4ce9-8979-450f6120e6c6/image.png" alt="Implement CI/CD Pipelines on Google Cloud" width="120px"/><br/>
+      <img src="./assets/badges/skill-badges/implement-ci-cd-pipelines.png" alt="Implement CI/CD Pipelines on Google Cloud" width="130px"/><br/>
       <b>Implement CI/CD Pipelines on Google Cloud</b>
     </td>
     <td width="80%">
@@ -85,7 +85,7 @@ These assessment-based credentials represent the core technical foundation of th
   </tr>
   <tr>
     <td width="20%" align="center">
-      <img src="https://images.credly.com/images/2513f572-c2e5-420a-8bf8-d56715f3ec56/image.png" alt="Privileged Access with IAM" width="120px"/><br/>
+      <img src="./assets/badges/skill-badges/privileged-access-with-iam.png" alt="Privileged Access with IAM" width="130px"/><br/>
       <b>Privileged Access with IAM</b>
     </td>
     <td width="80%">
@@ -98,20 +98,7 @@ These assessment-based credentials represent the core technical foundation of th
   </tr>
   <tr>
     <td width="20%" align="center">
-      <img src="https://images.credly.com/images/96a6c6e7-1424-4f51-b072-cb25bbfead8e/image.png" alt="Connecting Cloud Networks with NCC" width="120px"/><br/>
-      <b>Connecting Cloud Networks with NCC</b>
-    </td>
-    <td width="80%">
-      <b>Verified Earned Date:</b> August 21, 2026<br/>
-      <b>Domain:</b> Enterprise Cloud Networking & Hybrid Architecture<br/>
-      <b>Technical Skills Demonstrated:</b> Configuring Network Connectivity Center (NCC) hub-and-spoke models, multi-VPC spoke attachments, Cloud Router BGP dynamic routing, VPC Network Peering topologies, and cross-region hybrid connectivity.<br/>
-      <b>Professional Career Relevance:</b> <i>High Relevance (Tier 1)</i> — Essential for Cloud Network Engineers and Enterprise Cloud Architects orchestrating large-scale corporate networks across multi-VPC and hybrid-cloud environments.<br/>
-      <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="https://www.credly.com/users/swapnil-patil.bbda7d25/badges/credly">View on Credly</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="20%" align="center">
-      <img src="https://images.credly.com/images/0dbbe5e2-6d8b-4929-a1b4-75eb9231f82e/image.png" alt="Implement Load Balancing on Compute Engine" width="120px"/><br/>
+      <img src="./assets/badges/skill-badges/implement-load-balancing.png" alt="Implement Load Balancing on Compute Engine" width="130px"/><br/>
       <b>Implement Load Balancing on Compute Engine</b>
     </td>
     <td width="80%">
@@ -124,7 +111,7 @@ These assessment-based credentials represent the core technical foundation of th
   </tr>
   <tr>
     <td width="20%" align="center">
-      <img src="https://images.credly.com/images/da94b150-b088-4444-a006-25816999a38f/image.png" alt="Build a Secure Google Cloud Network" width="120px"/><br/>
+      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Build a Secure Google Cloud Network" width="130px"/><br/>
       <b>Build a Secure Google Cloud Network</b>
     </td>
     <td width="80%">
@@ -135,13 +122,26 @@ These assessment-based credentials represent the core technical foundation of th
       <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="./Secure-Multi-VPC-Architecture">View Lab Implementation</a>
     </td>
   </tr>
+  <tr>
+    <td width="20%" align="center">
+      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Connecting Cloud Networks with NCC" width="130px"/><br/>
+      <b>Connecting Cloud Networks with NCC</b>
+    </td>
+    <td width="80%">
+      <b>Verified Earned Date:</b> August 21, 2026<br/>
+      <b>Domain:</b> Enterprise Cloud Networking & Hybrid Architecture<br/>
+      <b>Technical Skills Demonstrated:</b> Configuring Network Connectivity Center (NCC) hub-and-spoke models, multi-VPC spoke attachments, Cloud Router BGP dynamic routing, VPC Network Peering topologies, and cross-region hybrid connectivity.<br/>
+      <b>Professional Career Relevance:</b> <i>High Relevance (Tier 1)</i> — Essential for Cloud Network Engineers and Enterprise Cloud Architects orchestrating large-scale corporate networks across multi-VPC and hybrid-cloud environments.<br/>
+      <b>Credential Verification:</b> <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">View on Google Skills Profile</a> | <a href="https://www.credly.com/users/swapnil-patil.bbda7d25/badges/credly">View on Credly</a>
+    </td>
+  </tr>
 </table>
 
 ---
 
 ## 🎮 Google Cloud Arcade — Complete Achievement Gallery
 
-The Google Cloud Arcade program features interactive gamified milestones, hands-on architectural simulators, and scenario-based challenge tracks. The sections below showcase all verified Arcade achievements categorized by track:
+The Google Cloud Arcade program features interactive gamified milestones, hands-on architectural simulators, and scenario-based challenge tracks. The sections below showcase verified Arcade achievements categorized by track:
 
 ### A. Arcade Simulators
 *Interactive architectural simulations testing real-world engineering troubleshooting and design patterns:*
@@ -155,7 +155,7 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
   </tr>
   <tr>
     <td align="center">
-      <img src="https://images.credly.com/images/da94b150-b088-4444-a006-25816999a38f/image.png" alt="Arcade Simulator: Network Security Engineer" width="90px"/>
+      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Arcade Simulator: Network Security Engineer" width="100px"/>
     </td>
     <td><b>Arcade Simulator: Network Security Engineer</b></td>
     <td>August 8, 2026</td>
@@ -177,7 +177,7 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
   </tr>
   <tr>
     <td align="center">
-      <img src="https://images.credly.com/images/07d2f928-8685-4ce9-8979-450f6120e6c6/image.png" alt="Arcade Trail: Cloud Delivery Systems" width="90px"/>
+      <img src="./assets/badges/skill-badges/implement-ci-cd-pipelines.png" alt="Arcade Trail: Cloud Delivery Systems" width="100px"/>
     </td>
     <td><b>Arcade Trail: Cloud Delivery Systems</b></td>
     <td>August 18, 2026</td>
@@ -199,7 +199,7 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
   </tr>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Arcade%20Voyage-Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Arcade Voyage: Google Sheets" width="130px"/>
+      <img src="https://img.shields.io/badge/Arcade%20Voyage-Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Arcade Voyage: Google Sheets" width="140px"/>
     </td>
     <td><b>Arcade Voyage: Google Sheets</b></td>
     <td>August 31, 2026</td>
@@ -221,7 +221,7 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
     <th width="50%">Description & Verification</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/Arcade-Base%20Camp-EA4335?style=for-the-badge&logo=googlecloud&logoColor=white" width="130px"/></td>
+    <td align="center"><img src="https://img.shields.io/badge/Arcade-Base%20Camp-EA4335?style=for-the-badge&logo=googlecloud&logoColor=white" width="140px"/></td>
     <td><b>Arcade Base Camp & Trivia</b></td>
     <td>Foundational cloud computing challenges, architectural trivia, and multi-disciplinary Google Cloud platform navigation.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verified on Google Skills Boost Profile</a></td>
   </tr>
@@ -385,7 +385,7 @@ git status
 git add .
 
 # Commit changes with descriptive message
-git commit -m "docs: add Google Cloud Arcade badge gallery and professional credential showcase"
+git commit -m "docs: fix badge image rendering with local repository assets"
 
 # Push to GitHub main branch
 git push origin main
