@@ -71,11 +71,11 @@ These assessment-based credentials represent the core technical foundation of th
 
 <table>
   <tr>
-    <td width="20%" align="center">
-      <img src="./assets/badges/skill-badges/implement-ci-cd-pipelines.png" alt="Implement CI/CD Pipelines on Google Cloud" width="130px"/><br/>
+    <td width="22%" align="center">
+      <img src="./assets/badges/skill-badges/implement-ci-cd-pipelines.png" alt="Implement CI/CD Pipelines on Google Cloud" width="135px"/><br/>
       <b>Implement CI/CD Pipelines on Google Cloud</b>
     </td>
-    <td width="80%">
+    <td width="78%">
       <b>Verified Earned Date:</b> August 10, 2026<br/>
       <b>Domain:</b> CI/CD, Container Packaging & Cloud Delivery<br/>
       <b>Technical Skills Demonstrated:</b> Automated software release management using Google Cloud Build, Artifact Registry Docker repository configuration, automated multi-target deployment pipelines with Google Cloud Deploy, and GKE cluster release engineering.<br/>
@@ -84,11 +84,11 @@ These assessment-based credentials represent the core technical foundation of th
     </td>
   </tr>
   <tr>
-    <td width="20%" align="center">
-      <img src="./assets/badges/skill-badges/privileged-access-with-iam.png" alt="Privileged Access with IAM" width="130px"/><br/>
+    <td width="22%" align="center">
+      <img src="./assets/badges/skill-badges/privileged-access-with-iam.png" alt="Privileged Access with IAM" width="135px"/><br/>
       <b>Privileged Access with IAM</b>
     </td>
-    <td width="80%">
+    <td width="78%">
       <b>Verified Earned Date:</b> August 8, 2026<br/>
       <b>Domain:</b> Security, Identity & Governance<br/>
       <b>Technical Skills Demonstrated:</b> Implementing least-privilege IAM roles, auditing custom roles, managing Google Cloud service accounts and key delegation, enforcing conditional access policies, configuring Identity-Aware Proxy (IAP), and inspecting Cloud Audit Logs.<br/>
@@ -97,11 +97,11 @@ These assessment-based credentials represent the core technical foundation of th
     </td>
   </tr>
   <tr>
-    <td width="20%" align="center">
-      <img src="./assets/badges/skill-badges/implement-load-balancing.png" alt="Implement Load Balancing on Compute Engine" width="130px"/><br/>
+    <td width="22%" align="center">
+      <img src="./assets/badges/skill-badges/implement-load-balancing.png" alt="Implement Load Balancing on Compute Engine" width="135px"/><br/>
       <b>Implement Load Balancing on Compute Engine</b>
     </td>
-    <td width="80%">
+    <td width="78%">
       <b>Verified Earned Date:</b> September 28, 2026<br/>
       <b>Domain:</b> Traffic Engineering & High Availability<br/>
       <b>Technical Skills Demonstrated:</b> Layer 7 Global External Application Load Balancers, Layer 4 Regional Passthrough Network Load Balancers, Internal Application Load Balancers, Managed Instance Groups (MIG), URL maps, backend health checks, and autoscaling policies under timed challenge conditions (`GSP313`).<br/>
@@ -110,11 +110,11 @@ These assessment-based credentials represent the core technical foundation of th
     </td>
   </tr>
   <tr>
-    <td width="20%" align="center">
-      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Build a Secure Google Cloud Network" width="130px"/><br/>
+    <td width="22%" align="center">
+      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Build a Secure Google Cloud Network" width="135px"/><br/>
       <b>Build a Secure Google Cloud Network</b>
     </td>
-    <td width="80%">
+    <td width="78%">
       <b>Verified Earned Date:</b> September 25, 2026<br/>
       <b>Domain:</b> Zero-Trust Infrastructure & VPC Design<br/>
       <b>Technical Skills Demonstrated:</b> Custom-mode VPC subnet design, stateful firewall rules with network tags, multi-homed virtual router appliances (Multi-NIC VMs), bastion hosts for administrative transit, and private network segmentation.<br/>
@@ -123,11 +123,11 @@ These assessment-based credentials represent the core technical foundation of th
     </td>
   </tr>
   <tr>
-    <td width="20%" align="center">
-      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Connecting Cloud Networks with NCC" width="130px"/><br/>
+    <td width="22%" align="center">
+      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Connecting Cloud Networks with NCC" width="135px"/><br/>
       <b>Connecting Cloud Networks with NCC</b>
     </td>
-    <td width="80%">
+    <td width="78%">
       <b>Verified Earned Date:</b> August 21, 2026<br/>
       <b>Domain:</b> Enterprise Cloud Networking & Hybrid Architecture<br/>
       <b>Technical Skills Demonstrated:</b> Configuring Network Connectivity Center (NCC) hub-and-spoke models, multi-VPC spoke attachments, Cloud Router BGP dynamic routing, VPC Network Peering topologies, and cross-region hybrid connectivity.<br/>
@@ -141,25 +141,62 @@ These assessment-based credentials represent the core technical foundation of th
 
 ## 🎮 Google Cloud Arcade — Complete Achievement Gallery
 
-The Google Cloud Arcade program features interactive gamified milestones, hands-on architectural simulators, and scenario-based challenge tracks. The sections below showcase verified Arcade achievements categorized by track:
+The Google Cloud Arcade program features interactive gamified milestones, hands-on architectural simulators, and scenario-based challenge tracks. All official badge artwork below is locally hosted in the repository and linked directly to individual public achievement verification pages:
+
+<table>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/26423988">
+        <img src="./assets/badges/arcade-simulators/arcade-simulator-network-security-engineer.png" width="145px" alt="Arcade Simulator: Network Security Engineer"/><br/>
+        <b>Arcade Simulator</b><br/>
+        <sub>Network Security Engineer</sub><br/>
+        <small>🗓️ August 8, 2026 EDT</small>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/26947964">
+        <img src="./assets/badges/arcade-trails/arcade-trail-cloud-delivery-systems.png" width="145px" alt="Arcade Trail: Cloud Delivery Systems"/><br/>
+        <b>Arcade Trail</b><br/>
+        <sub>Cloud Delivery Systems</sub><br/>
+        <small>🗓️ August 18, 2026 EDT</small>
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/27462379">
+        <img src="./assets/badges/arcade-voyages/arcade-voyage-google-sheets.png" width="145px" alt="Arcade Voyage: Google Sheets"/><br/>
+        <b>Arcade Voyage</b><br/>
+        <sub>Google Sheets</sub><br/>
+        <small>🗓️ August 31, 2026 EDT</small>
+      </a>
+    </td>
+  </tr>
+</table>
 
 ### A. Arcade Simulators
 *Interactive architectural simulations testing real-world engineering troubleshooting and design patterns:*
 
 <table>
   <tr>
-    <th width="20%">Badge Artwork</th>
-    <th width="25%">Achievement Title</th>
-    <th width="15%">Earned Date</th>
-    <th width="40%">Engineering Focus & Skill Demonstration</th>
+    <th width="22%">Official Badge Artwork</th>
+    <th width="28%">Achievement Title & Earned Date</th>
+    <th width="50%">Engineering Focus & Skill Demonstration</th>
   </tr>
   <tr>
     <td align="center">
-      <img src="./assets/badges/skill-badges/build-a-secure-google-cloud-network.png" alt="Arcade Simulator: Network Security Engineer" width="100px"/>
+      <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/26423988">
+        <img src="./assets/badges/arcade-simulators/arcade-simulator-network-security-engineer.png" alt="Arcade Simulator: Network Security Engineer" width="135px"/>
+      </a>
     </td>
-    <td><b>Arcade Simulator: Network Security Engineer</b></td>
-    <td>August 8, 2026</td>
-    <td>Designing defensive network architectures, deploying perimeter Cloud Armor security policies, isolating virtual machines with private subnets, and inspecting network flow logs.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verify on Skills Boost</a></td>
+    <td>
+      <b>Arcade Simulator: Network Security Engineer</b><br/>
+      <small>🗓️ Earned: August 8, 2026 EDT</small><br/><br/>
+      🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/26423988"><b>Verify Official Badge Page</b></a>
+    </td>
+    <td>
+      • <b>Zero-Trust Perimeter Defense:</b> Designing hardened virtual network architectures and configuring Cloud Armor WAF policies.<br/>
+      • <b>Private Workload Isolation:</b> Segregating virtual machines with custom VPC subnets and eliminating public IP exposure.<br/>
+      • <b>Traffic Inspection & Audit:</b> Auditing network security policies using VPC Flow Logs and Cloud Logging.
+    </td>
   </tr>
 </table>
 
@@ -170,18 +207,26 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
 
 <table>
   <tr>
-    <th width="20%">Badge Artwork</th>
-    <th width="25%">Achievement Title</th>
-    <th width="15%">Earned Date</th>
-    <th width="40%">Engineering Focus & Skill Demonstration</th>
+    <th width="22%">Official Badge Artwork</th>
+    <th width="28%">Achievement Title & Earned Date</th>
+    <th width="50%">Engineering Focus & Skill Demonstration</th>
   </tr>
   <tr>
     <td align="center">
-      <img src="./assets/badges/skill-badges/implement-ci-cd-pipelines.png" alt="Arcade Trail: Cloud Delivery Systems" width="100px"/>
+      <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/26947964">
+        <img src="./assets/badges/arcade-trails/arcade-trail-cloud-delivery-systems.png" alt="Arcade Trail: Cloud Delivery Systems" width="135px"/>
+      </a>
     </td>
-    <td><b>Arcade Trail: Cloud Delivery Systems</b></td>
-    <td>August 18, 2026</td>
-    <td>Hands-on mastery of software delivery pipelines, container image scanning in Artifact Registry, automated build triggers via Cloud Build, and deployment staging to Kubernetes clusters.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verify on Skills Boost</a></td>
+    <td>
+      <b>Arcade Trail: Cloud Delivery Systems</b><br/>
+      <small>🗓️ Earned: August 18, 2026 EDT</small><br/><br/>
+      🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/26947964"><b>Verify Official Badge Page</b></a>
+    </td>
+    <td>
+      • <b>Automated Cloud Delivery:</b> Designing end-to-end continuous delivery pipelines for microservices.<br/>
+      • <b>Container Supply Chain:</b> Building, scanning, and publishing container images to Artifact Registry.<br/>
+      • <b>Continuous Staging & Deployment:</b> Configuring automated build triggers and declarative deployments to Kubernetes clusters.
+    </td>
   </tr>
 </table>
 
@@ -192,18 +237,26 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
 
 <table>
   <tr>
-    <th width="20%">Badge Artwork</th>
-    <th width="25%">Achievement Title</th>
-    <th width="15%">Earned Date</th>
-    <th width="40%">Engineering Focus & Skill Demonstration</th>
+    <th width="22%">Official Badge Artwork</th>
+    <th width="28%">Achievement Title & Earned Date</th>
+    <th width="50%">Engineering Focus & Skill Demonstration</th>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://img.shields.io/badge/Arcade%20Voyage-Google%20Sheets-34A853?style=for-the-badge&logo=googlesheets&logoColor=white" alt="Arcade Voyage: Google Sheets" width="140px"/>
+      <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/27462379">
+        <img src="./assets/badges/arcade-voyages/arcade-voyage-google-sheets.png" alt="Arcade Voyage: Google Sheets" width="135px"/>
+      </a>
     </td>
-    <td><b>Arcade Voyage: Google Sheets</b></td>
-    <td>August 31, 2026</td>
-    <td>Data manipulation, operational telemetry formatting, programmatic spreadsheet workflows, and reporting automation for cloud operational analytics.<br/>🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">Verify on Skills Boost</a></td>
+    <td>
+      <b>Arcade Voyage: Google Sheets</b><br/>
+      <small>🗓️ Earned: August 31, 2026 EDT</small><br/><br/>
+      🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0/badges/27462379"><b>Verify Official Badge Page</b></a>
+    </td>
+    <td>
+      • <b>Cloud Telemetry & Reporting:</b> Data manipulation, filtering, and metric aggregations.<br/>
+      • <b>Operational Analysis:</b> Programmatic spreadsheet workflows and automated data modeling.<br/>
+      • <b>Workspace Collaboration:</b> Bridging cloud data exports with real-time collaborative spreadsheets.
+    </td>
   </tr>
 </table>
 
@@ -216,8 +269,8 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
 
 <table>
   <tr>
-    <th width="20%">Badge Category</th>
-    <th width="30%">Track / Milestone</th>
+    <th width="22%">Badge Category</th>
+    <th width="28%">Track / Milestone</th>
     <th width="50%">Description & Verification</th>
   </tr>
   <tr>
@@ -385,7 +438,7 @@ git status
 git add .
 
 # Commit changes with descriptive message
-git commit -m "docs: fix badge image rendering with local repository assets"
+git commit -m "docs: add Google Cloud Arcade badge gallery and professional credential showcase"
 
 # Push to GitHub main branch
 git push origin main
