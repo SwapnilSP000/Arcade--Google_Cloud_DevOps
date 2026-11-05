@@ -30,7 +30,8 @@
    - [A. Arcade Simulators](#a-arcade-simulators)
    - [B. Arcade Trails & Re-Trails](#b-arcade-trails--re-trails)
    - [C. Arcade Voyages](#c-arcade-voyages)
-   - [D. Arcade Adventures & Events](#d-arcade-adventures--events)
+   - [D. Arcade Events & Special Programs](#d-arcade-events--special-programs)
+   - [E. Arcade Adventures & Trivia Milestones](#e-arcade-adventures--trivia-milestones)
 5. [High-Value Skill Badges Ranked by Career Relevance](#-high-value-skill-badges-ranked-by-career-relevance)
 6. [Professional Career Path Alignment](#-professional-career-path-alignment)
 7. [Enterprise Architecture Overview](#-enterprise-architecture-overview)
@@ -45,11 +46,11 @@
 
 | Portfolio Metric | Metric Value | Verification Source |
 |---|---|---|
-| **Core Technical Modules** | 7 Distinct Domains | Repository Directory Structure |
-| **Documented Lab Implementations** | 15+ Verified Labs | End-to-end `README.md` & Shell/SQL Scripts |
+| **Core Technical Modules** | 9 Distinct Domains | Repository Directory Structure |
+| **Documented Lab Implementations** | 17+ Verified Labs | End-to-end `README.md` & Shell/SQL Scripts |
 | **Challenge Labs Mastered** | 4 Rigorous Scenarios | Timed assessment completions (`GSP313`, `GSP364`, `GSP395`, etc.) |
-| **Forensic Screenshot Evidence** | 85+ Terminal & Console Proofs | Dedicated `Screenshot/` folders per lab |
-| **Primary Cloud Platform** | Google Cloud Platform (GCP) | Compute, Networking, GKE, Databases, Observability |
+| **Forensic Screenshot Evidence** | 95+ Terminal & Console Proofs | Dedicated `Screenshot/` folders per lab |
+| **Primary Cloud Platform** | Google Cloud Platform (GCP) | Compute, Networking, GKE, Databases, Observability, Serverless, IAM |
 | **Primary Automation Tools** | `gcloud` CLI, `kubectl`, Bash, PromQL, SQL | Automated implementation scripts |
 | **Verified Skill & Arcade Badges** | Multiple Assessed Badges | [Google Cloud Skills Boost Profile](https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0) |
 
@@ -262,7 +263,36 @@ The Google Cloud Arcade program features interactive gamified milestones, hands-
 
 ---
 
-### D. Arcade Adventures & Events
+### D. Arcade Events & Special Programs
+*Official milestones celebrating active participation in Google Cloud Arcade initiatives:*
+
+<table>
+  <tr>
+    <th width="22%">Official Badge Artwork</th>
+    <th width="28%">Achievement Title & Earned Date</th>
+    <th width="50%">Description & Verification</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0">
+        <img src="./assets/badges/other-achievements/arcade-gear.png" alt="Arcade - GEAR" width="135px"/>
+      </a>
+    </td>
+    <td>
+      <b>Arcade - GEAR</b><br/>
+      <small>🗓️ Earned: July 14, 2026</small><br/><br/>
+      🔗 <a href="https://www.skills.google/public_profiles/e1158899-3f93-4f1a-be6a-398d495945a0"><b>Verify on Google Skills Profile</b></a>
+    </td>
+    <td>
+      • <b>Community & Engineering Program:</b> Earned for taking part in the Google Cloud Arcade and joining GEAR.<br/>
+      • <b>Ecosystem Engagement:</b> Hands-on participation in cloud challenges, skills assessment quests, and technical learning tracks.
+    </td>
+  </tr>
+</table>
+
+---
+
+### E. Arcade Adventures & Trivia Milestones
 <details>
 <summary><b>🔍 Click to expand seasonal Arcade event achievements & trivia milestones</b></summary>
 <br/>
@@ -391,6 +421,15 @@ flowchart TD
 * **AlloyDB - Database Fundamentals (`GSP1083`)**: *Staged module* covering database cluster basics.
 * **Migrate to AlloyDB from PostgreSQL Using DMS (`GSP1085`)**: *Staged module* covering Database Migration Service workflows.
 
+### 8. 📦 [Apps, Buckets, and IAM](./Apps,%20Buckets,%20and%20IAM)
+*Serverless application platforms, runtime containers, and cloud PaaS deployment operations.*
+* **App Engine: Qwik Start - PHP (`GSP069`)**: Serverless PaaS application deployment, configuring `app.yaml` runtime descriptor for PHP 8.3 (`php83`), deploying via `gcloud app deploy`, live log streaming (`gcloud app logs tail`), and zero-downtime rolling redeployment (*Score: Completed*).
+* **App Engine: Qwik Start - Go (`GSP070`)**: [Complete Project Reference](./Apps,%20Buckets,%20and%20IAM/App%20Engine%20Qwik%20Start%20-%20Go) demonstrating App Engine standard environment deployment for Go, cloning official `golang-samples`, deploying via `gcloud app deploy`, and verifying serverless autoscaling endpoints (*Score: Completed*).
+
+### 9. 🔐 [Private Clusters and Traffic Spikes](./Private%20Clusters%20and%20Traffic%20Spikes)
+*Advanced infrastructure security, granular access control, least-privilege architecture, and custom role lifecycles.*
+* **IAM Custom Roles (`GSP190`)**: [Complete Project Reference](./Private%20Clusters%20and%20Traffic%20Spikes/GSP190-IAM-Custom-Roles) demonstrating `gcloud iam list-testable-permissions`, authoring custom roles via YAML (`role-definition.yaml`) and CLI flags, incremental permission updates (`--add-permissions`/`--remove-permissions`), disabling roles (`stage: DISABLED`), and soft-delete/undelete recovery drills (*Score: Completed*).
+
 ---
 
 ## 🛠️ Technical Skills Matrix
@@ -404,6 +443,7 @@ flowchart TD
 | **Cloud-Native Observability & SRE** | Google Cloud Managed Service for Prometheus, PromQL, Grafana, OpenTSDB, Cloud Monitoring, Cloud Logging | [`Spotting-Phantoms-on-the-Radar`](./Spotting-Phantoms-on-the-Radar), [`Monitor Time-Series Data with OpenTSDB`](./Monitor%20Time-Series%20Data%20with%20OpenTSDB) |
 | **Observability FinOps & Cost Governance**| `OperatorConfig` `matchOneOf` series filtering, `PodMonitoring` scrape interval modulation (30s to 60s) | [`GSP1027`](./Spotting-Phantoms-on-the-Radar/Reduce%20Costs%20for%20the%20Managed%20Service%20for%20Prometheus), [`GSP364`](./Spotting-Phantoms-on-the-Radar/Monitor%20Environments%20with%20Google%20Cloud%20Managed%20Service%20for%20Prometheus%20Challenge%20Lab) |
 | **Database Engineering & Storage** | AlloyDB for PostgreSQL, Cloud Bigtable, `psql` Client, Read Pools, Relational Schemas, Snapshots | [`Deliver the Treats AlloyDB Performance`](./Deliver%20the%20Treats%20AlloyDB%20Performance), [`GSP142`](./Monitor%20Time-Series%20Data%20with%20OpenTSDB) |
+| **Serverless PaaS & Runtime Config**| Google App Engine Standard, PHP 8.3, `app.yaml`, `gcloud app deploy`, zero-downtime versioning | [`Apps, Buckets, and IAM`](./Apps,%20Buckets,%20and%20IAM/App%20Engine%20-%20Qwik%20Start%20PHP) |
 | **Transport Security & Identity** | SSL/TLS Encryption (`sslmode=require`), Least-Privilege IAM Roles, Service Accounts | [`GSP395`](./Deliver%20the%20Treats%20AlloyDB%20Performance/Create%20and%20Manage%20AlloyDB%20Instances%20Challenge%20Lab), [`VPC Access Control`](./Secure-Multi-VPC-Architecture/VPC-Networks-Controlling-Access) |
 
 ---
