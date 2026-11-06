@@ -10,9 +10,9 @@ assets/badges/
 ├── arcade-adventures/     # Arcade Adventure interactive challenge badges
 ├── arcade-voyages/        # Arcade Voyage badges (e.g., Google Sheets)
 ├── arcade-trails/         # Arcade Trail & Re-Trail badges (e.g., Cloud Delivery Systems)
-├── arcade-events/         # Arcade Base Camp, seasonal events, and Trivia milestones
+├── arcade-events/         # Arcade Base Camp, seasonal events, and community milestones (e.g., Arcade - GEAR)
 ├── skill-badges/          # Official Google Cloud assessment-based Skill Badges
-└── other-achievements/    # Supporting technical learning and foundation credentials
+└── other-achievements/    # Supporting technical learning and foundation credentials (e.g., Arcade - GEAR)
 ```
 
 ## Attribution & Integrity

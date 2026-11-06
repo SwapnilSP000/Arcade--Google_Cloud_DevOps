@@ -423,8 +423,10 @@ flowchart TD
 
 ### 8. 📦 [Apps, Buckets, and IAM](./Apps,%20Buckets,%20and%20IAM)
 *Serverless application platforms, runtime containers, and cloud PaaS deployment operations.*
-* **App Engine: Qwik Start - PHP (`GSP069`)**: Serverless PaaS application deployment, configuring `app.yaml` runtime descriptor for PHP 8.3 (`php83`), deploying via `gcloud app deploy`, live log streaming (`gcloud app logs tail`), and zero-downtime rolling redeployment (*Score: Completed*).
+* **App Engine: Qwik Start - PHP (`GSP069`)**: [Complete Project Reference](./Apps,%20Buckets,%20and%20IAM/App%20Engine%20-%20Qwik%20Start%20PHP) demonstrating serverless PaaS application deployment, configuring `app.yaml` runtime descriptor for PHP 8.3 (`php83`), deploying via `gcloud app deploy`, live log streaming (`gcloud app logs tail`), and zero-downtime rolling redeployment (*Score: Completed*).
 * **App Engine: Qwik Start - Go (`GSP070`)**: [Complete Project Reference](./Apps,%20Buckets,%20and%20IAM/App%20Engine%20Qwik%20Start%20-%20Go) demonstrating App Engine standard environment deployment for Go, cloning official `golang-samples`, deploying via `gcloud app deploy`, and verifying serverless autoscaling endpoints (*Score: Completed*).
+* **Manage Cloud Storage with the Google Cloud Console (`GSP073`)**: [Complete Project Reference](./Apps,%20Buckets,%20and%20IAM/GSP073-Cloud-Storage-Console) demonstrating Google Cloud Console storage workflows, Region location & Standard class configuration, Uniform IAM access control, `kitten.png` ingestion, simulated folder hierarchies (`folder1/folder2/`), and `allUsers` `Storage Object Viewer` public access governance (*Score: Completed*).
+* **Manage Cloud Storage with the Google Cloud CLI (`GSP074`)**: [Complete Project Reference](./Apps,%20Buckets,%20and%20IAM/GSP074-Cloud-Storage-CLI) covering global bucket namespace provisioning, object uploads/downloads with `gcloud storage cp`, flat-namespace simulated subfolders (`image-folder/`), detailed metadata enumeration (`gcloud storage ls -L`), and public ACL grants/revocations (*Score: Completed*).
 
 ### 9. 🔐 [Private Clusters and Traffic Spikes](./Private%20Clusters%20and%20Traffic%20Spikes)
 *Advanced infrastructure security, granular access control, least-privilege architecture, and custom role lifecycles.*
