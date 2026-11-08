@@ -140,7 +140,7 @@ gcloud storage rm gs://YOUR-BUCKET-NAME/ada.jpg
 
 ## 📷 Forensic Screenshot Evidence
 
-Both screenshots below represent genuine forensic evidence captured directly during the Cloud Shell session:
+The screenshots below represent genuine forensic evidence captured directly during the lab session:
 
 ### 1. Bucket Creation & Ingestion Workflow
 Shows Cloud Shell configuring the compute region, generating a unique bucket name variable, creating the bucket (`gcloud storage buckets create`), downloading `ada.jpg` with `curl`, uploading to the bucket, downloading locally, and copying into `image-folder/`:
@@ -155,6 +155,14 @@ Shows Cloud Shell enumerating bucket contents (`gcloud storage ls`), inspecting 
 
 ![CLI Operations](screenshots/02-cli-operations.png)
 *Figure 2: Object enumeration, metadata inspection, and public ACL grant verification in Google Cloud Shell.*
+
+---
+
+### 3. Public Access Verification & Revocation
+Shows browser confirmation accessing the public storage URL (`https://storage.googleapis.com/[BUCKET_NAME]/ada.jpg`) validating that anonymous caller permissions are restricted once public ACLs are revoked:
+
+![Public Access Verification](screenshots/03-public-access-verification-browser.png)
+*Figure 3: Browser verification accessing the Cloud Storage object URL confirming AccessDenied XML payload when public access is revoked.*
 
 ---
 
